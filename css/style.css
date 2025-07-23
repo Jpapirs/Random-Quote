@@ -68,6 +68,10 @@ body {
     border: none;
     color: #e3e8ef;
     cursor: pointer;
+    transition: ease-out .3s;
+    &:hover{
+      opacity: .7;
+    }
 }
 
 .btn img{

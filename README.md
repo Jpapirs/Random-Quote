@@ -98,4 +98,4 @@ This challenge is completely free. Please share it with anyone who would find it
 **Enjoy building!** 🚀
 
 
-    "https://raw.githubusercontent.com/devchallenges-io/curriculum/refs/heads/main/3-javascript/challenges/group_1/data/random-quotes.json"
+    ""
