@@ -1,0 +1,76 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "outfit", Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #121720;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.section {
+  background: #252b33 url(../resources/bg-image-random-quote.svg) bottom/cover;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-size: cover;
+  padding: 30px 60px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.infos {
+  margin-bottom: 30px;
+}
+
+.author {
+  color: #e3e8ef;
+  margin-bottom: 20px;
+  font-weight: 800;
+  font-size: 1rem;
+}
+
+.tag {
+  color: #aeb0ff;
+  margin-right: 10px;
+  padding: 10px;
+  border: 2px solid #aeb0ff;
+  border-radius: 20px;
+  font-size: 0.625rem;
+}
+
+.text{
+    text-align: center;
+}
+
+.quote{
+    color: #e3e8ef;
+    font-size: 1.5rem;
+}
+
+.buttons{
+    text-align: center;
+}
+
+.btn{
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #252b33;
+    border: none;
+    color: #e3e8ef;
+    cursor: pointer;
+}
+
+.btn img{
+    vertical-align: middle;
+    max-width: 100%;
+}
